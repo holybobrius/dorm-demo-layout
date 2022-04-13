@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacts.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Главная</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-content">
+                <div class="logo-wrapper">
+                    <a href="/"><img src="logo.svg" /></a>
+                </div>
+                <div class="navbar">
+                    <div class="nav-item">
+                        <a href='rules.html'>Правила Приема</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href='info.html'>Информация</a>
+                    </div>
+                    <div class="nav-item">
+                        <a id='navlink-active' href='contacts.html'>Контакты</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="contacts-wrapper">
+                <div class="contacts-text-wrapper">
+                    <div class='text-block'>
+                        <h1 class="heading">Приемная Комиссия</h1>
+                        <div class='text-item'>
+                            <img class='icon' src="./assets/phone.svg">
+                            <p>+7 (495) 255-67-67</p>
+                        </div>
+                        <div class='text-item'>
+                            <img class='icon' src="./assets/mail.svg">
+                            <p>pk@rgsu.net</p>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class='text-block'>
+                        <h1 class="heading">Call-центр</h1>
+                        <div class='text-item'>
+                            <img class='icon' src="./assets/phone.svg">
+                            <p>+7 (495) 255-67-67</p>
+                        </div>
+                        <div class='text-item'>
+                            <img class='icon' src="./assets/mail.svg">
+                            <p>info@rgsu.net</p>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class='text-block'>
+                        <h1 class="heading">Адрес приёмной <br>комиссии</h1>
+                        <div class='text-item'>
+                            <img class='icon' src="./assets/map.svg">
+                            <p>г. Москва, ул. Стромынка, д. 18</p>
+                        </div>
+                    </div>
+                </div>
+                <iframe class='map' src="https://api-maps.yandex.ru/frame/v1/?pt=37.694600,55.793500&z=16&l=map" width="560" height="400" frameborder="0"></iframe>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

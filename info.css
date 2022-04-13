@@ -1,0 +1,127 @@
+html { height: 100%; }
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #eaecee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    max-width: 1520px;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER */
+
+main {
+    display: grid;
+    place-items: center;
+    padding: 0 100px;
+    gap: 30px;
+    grid-template-columns : repeat(2, 1fr);
+    grid-template-rows: repeat(2, 0fr);
+}
+
+h2 {
+    margin: 0;
+}
+
+.info-item-wrapper {
+    color: white;
+    width: 100%;
+    height: 250px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.info-item-wrapper:last-child {
+    grid-column: span 2;
+}
+
+.info-item-wrapper:last-child .info-item {
+    background-position: center;
+    padding: 30px;
+}
+
+.info-item {
+    box-sizing: border-box;
+    width: 100%; height: 100%;
+    padding: 20px;
+    transition: all .5s;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.info-item-wrapper:hover .info-item {
+    transform: scale(1.04);
+    text-decoration: underline;
+}
+
+.popup {
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    top: 0px; left: 0px;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+  
+.popup-content {
+    position: relative;
+    background-color: white;
+    width: 40vw;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+p {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.popup-images {
+    display:flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+}
+.popup-images img {
+    max-width:100%;
+}
+
+strong {
+    color: #00507a;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        background-color: white;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .popup-content {
+        width: 85vw;
+    }
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="info.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-content">
+                <div class="logo-wrapper">
+                    <a href="/"><img src="logo.svg" /></a>
+                </div>
+                <div class="navbar">
+                    <div class="nav-item">
+                        <a href='rules.html'>Правила Приема</a>
+                    </div>
+                    <div class="nav-item">
+                        <a id='navlink-active' href='info.html'>Информация</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href='contacts.html'>Контакты</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="info-item-wrapper">
+                <div class="info-item" id='first'
+                    style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 15%, rgba(0, 0, 0, 0.85) 100%), url('./assets/dorm1/1.1.1.1.jpg');">
+                    <h2>Общежитие 1</h2>
+                    <p>г. Москва, ул. Лосиноостровская, д. 24, стр. 2</p>
+                </div>
+            </div>
+            <div class="info-item-wrapper">
+                <div class="info-item" id='second'
+                    style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 15%, rgba(0, 0, 0, 0.85) 100%), url('./assets/dorm2/2.jpg');">
+                    <h2>Общежитие 2</h2>
+                    <p>г. Москва, ул. Лосиноостровская, д. 40, корп. 1</p>
+                </div>
+            </div>
+            <div class="info-item-wrapper">
+                <div class="info-item" id='third'
+                    style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 15%, rgba(0, 0, 0, 0.85) 100%), url('./assets/dorm3/3.jpg');">
+                    <h2>Общежитие 3</h2>
+                    <p>г. Москва, 1-ый Балтийский пер, д. 6/21, корп.2</p>
+                </div>
+            </div>
+            <div class="info-item-wrapper">
+                <div class="info-item" id='fourth'
+                    style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 15%, rgba(0, 0, 0, 0.85) 100%), url('./assets/dorm4/4.jpg');">
+                    <h2>Общежитие 4</h2>
+                    <p>г. Москва, ул. Плещеева, д. 15В, корп. 1</p>
+                </div>
+            </div>
+            <div class="info-item-wrapper">
+                <div class="info-item" id='fifth'
+                    style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 15%, rgba(0, 0, 0, 0.85) 100%), url('./assets/dorm5/5.jpg');">
+                    <h2>Общежитие 5</h2>
+                    <p>г. Москва, ул. Инженерная, д. 4</p>
+                </div>
+            </div>
+        </main>
+        <div class="popup" id="popup-first" style="display: none;">
+            <div class="popup-content" id="popup-content-first">
+                <div class="popup-images">
+                    <div><img src="./assets/dorm1/1.1.1.jpg" alt=""></div>
+                    <div><img src="./assets/dorm1/1.1.jpg" alt=""></div>
+                    <div><img src="./assets/dorm1/1.jpg" alt=""></div>
+                </div>
+                <p><strong>Адрес:</strong> г. Москва, ул. Плещеева, д. 15В, корп. 1.</p>
+                <p><strong>Добраться можно:</strong> станции метро «Медведково», первый вагон из центра. Троллейбус №80,
+                    автобусы: №77,771, 31 до остановки «ул. Лескова». Станции метро «Бибирево», последний вагон из
+                    центра. Далее любым автобусом до остановки «ул. Лескова».</p>
+                <p>Общежитие блочного типа, имеет:</p>
+                <ul>
+                    <li>WiFi;</li>
+                    <li>Проводной интернет;</li>
+                    <li>Зал для самостоятельной работы;</li>
+                </ul>
+            </div>
+        </div>
+        <div class="popup" id="popup-second" style="display: none;">
+            <div class="popup-content" id="popup-content-second">
+                <div class="popup-images">
+                </div>
+                <p><strong>Адрес:</strong> г. Москва, ул. Лосиноостровская, д. 40, корп. 1.</p>
+                <p><strong>Добраться можно:</strong>
+                от станции метро «Бульвар Рокоссовского» / МЦК «Бульвар Рокоссовского» - авт. №822, №75, остановка
+                    «ул. Лосиноостровская» или метро «Сокольники» - авт. №75, остановка «ул. Лосиноостровская» <strong>или</strong> от станции МЦК «Белокаменная». Выход в сторону Национального парка «Лосиный остров». Проходите по
+                    насыпной дороге вдоль забора.
+                <p>Общежитие блочного типа, имеет:</p>
+                <ul>
+                    <li>WiFi;</li>
+                    <li>Проводной интернет;</li>
+                    <li>Зал для самостоятельной работы;</li>
+                    <li>80 двухкомнатных блоков;</li>
+                    <li>14 однокомнатных блока;</li>
+                </ul>
+            </div>
+        </div>
+        <div class="popup" id="popup-third" style="display: none;">
+            <div class="popup-content" id="popup-content-third">
+                <div class="popup-images">
+                    <div><img src="./assets/dorm3/3.3.jpg" alt=""></div>
+                </div>
+                <p><strong>Адрес:</strong> г. Москва, 1-ый Балтийский пер, д. 6/21, корп.2.</p>
+                <p><strong>Добраться можно:</strong> от метро «Сокол», выход на Балтийскую улицу. Из метро – налево.
+                    Проход из металлического забора, через двор – прямо. Перекресток. Далее прямо. По правую сторону 2
+                    новых здания, мимо светофора (справа «Папа Джонс»), пересечь 2-ую ул. Усиевича, прямо по
+                    Головановскому переулку до общежития.
+                </p>
+                <p>Общежитие блочного типа, имеет:</p>
+                <ul>
+                    <li>WiFi;</li>
+                    <li>Проводной интернет;</li>
+                    <li>Зал для самостоятельной работы;</li>
+                    <li>86 четырёхместных комнат;</li>
+                    <li>1 трёхместная комната;</li>
+                    <li>85 двухместных комнат;</li>
+                </ul>
+            </div>
+        </div>
+        <div class="popup" id="popup-fourth" style="display: none;">
+            <div class="popup-content" id="popup-content-fourth">
+                <div class="popup-images">
+                    <div><img src="./assets/dorm4/4.4.jpg" alt=""></div>
+                </div>
+                <p><strong>Адрес:</strong> г. Москва, ул. Плещеева, д. 15В, корп. 1.</p>
+                <p><strong>Добраться можно:</strong> станции метро «Медведково», первый вагон из центра. Троллейбус №80,
+                    автобусы: №77,771, 31 до остановки «ул. Лескова». Станции метро «Бибирево», последний вагон из
+                    центра. Далее любым автобусом до остановки «ул. Лескова».</p>
+                <p>Общежитие блочного типа, имеет:</p>
+                <ul>
+                    <li>WiFi;</li>
+                    <li>Проводной интернет;</li>
+                    <li>Зал для самостоятельной работы;</li>
+                </ul>
+            </div>
+        </div>
+        <div class="popup" id="popup-fifth" style="display: none;">
+            <div class="popup-content" id="popup-content-fifth">
+                <div class="popup-images">
+                </div>
+                <p><strong>Адрес:</strong> г. Москва, ул. Инженерная, д. 4.</p>
+                <p><strong>Добраться можно:</strong> от станции метро «Алтуфьево», автобусы №73, 259, 571 до остановки «ул. Инженерная».</p>
+                <p>Общежитие блочного типа, имеет:</p>
+                <ul>
+                    <li>WiFi;</li>
+                    <li>Зал для самостоятельной работы;</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    const popupFirst = document.querySelector('#popup-first')
+    const popupContentFirst = document.querySelector('#popup-content-first')
+    const buttonFirst = document.querySelector('#first')
+
+    const popupSecond = document.querySelector('#popup-second')
+    const popupContentSecond = document.querySelector('#popup-content-second')
+    const buttonSecond = document.querySelector('#second')
+
+    const popupThird = document.querySelector('#popup-third')
+    const popupContentThird = document.querySelector('#popup-content-third')
+    const buttonThird = document.querySelector('#third')
+
+    const popupFourth = document.querySelector('#popup-fourth')
+    const popupContentFourth = document.querySelector('#popup-content-fourth')
+    const buttonFourth = document.querySelector('#fourth')
+
+    const popupFifth = document.querySelector('#popup-fifth')
+    const popupContentFifth = document.querySelector('#popup-content-fifth')
+    const buttonFifth = document.querySelector('#fifth')
+
+    buttonFirst.onclick = () => popupFirst.style.display = 'flex';
+    popupContentFirst.onclick = (e) => e.stopPropagation();
+    popupFirst.onclick = () => popupFirst.style.display = 'none';
+
+    buttonSecond.onclick = () => popupSecond.style.display = 'flex';
+    popupContentSecond.onclick = (e) => e.stopPropagation();
+    popupSecond.onclick = () => popupSecond.style.display = 'none';
+
+    buttonThird.onclick = () => popupThird.style.display = 'flex';
+    popupContentThird.onclick = (e) => e.stopPropagation();
+    popupThird.onclick = () => popupThird.style.display = 'none';
+
+    buttonFourth.onclick = () => popupFourth.style.display = 'flex';
+    popupContentFourth.onclick = (e) => e.stopPropagation();
+    popupFourth.onclick = () => popupFourth.style.display = 'none';
+
+    buttonFifth.onclick = () => popupFifth.style.display = 'flex';
+    popupContentFourth.onclick = (e) => e.stopPropagation();
+    popupFifth.onclick = () => popupFifth.style.display = 'none';
+</script>
+
+</html>

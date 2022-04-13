@@ -1,0 +1,113 @@
+html { height: 100%; }
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #eaecee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    max-width: 1520px;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%), url('./assets/blurred.png');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-wrapper {
+    background-color: white;
+    width: 60vw;
+    height: auto;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.contacts-text-wrapper {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.text-block {
+    padding: 30px 50px;
+}
+
+.heading {
+    color: black;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.map {
+    width: 60vw;
+}
+
+.text-item {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+p {
+    margin: 3px;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+hr {
+    border-color: whitesmoke;
+    margin: 30px 0;
+}
+
+@media only screen and (max-width: 600px) {
+    html, body, main {
+        overflow: hidden;
+    }
+
+    .contacts-text-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        margin-top: 20px;  
+    }
+
+    .text-block {
+        padding: 0px 20px;
+    }
+
+    .contacts-wrapper {
+        width: 85vw;
+        height: auto;
+    }
+
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    hr {
+        margin: 15px 20px;
+        border-color: #fff;
+    }
+
+    .map {
+        margin-top: 15px;
+        width: 85vw;
+        height: 250px;
+    }
+}
